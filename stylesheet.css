@@ -1,0 +1,31 @@
+table tr:nth-child(odd) td{
+   
+    background-color:beige
+    }
+table tr:nth-child(1) th{
+        background-color: blanchedalmond;
+    }
+
+    table th{
+   
+        background-color:yellow
+        }
+caption{
+    font-size: x-large;
+    color: blue;
+    background-color: yellowgreen
+}
+p{
+    font-size: small;
+    color: navy;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: cornflowerblue;
+    border-radius: 50%;
+}
+.btn:hover{
+    color: red;
+}
