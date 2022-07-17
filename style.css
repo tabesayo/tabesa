@@ -20,8 +20,10 @@ p{
     color: navy;
 }
 .btn{
-    width: 100px;
+    width: 10em;
+height:5em;
     padding: 10px;
+font-size:1em;
     box-sizing: border-box;
     color: cornflowerblue;
     border-radius: 50%;
@@ -31,8 +33,10 @@ p{
 }
 
 .button{
-    width: 100px;
-    padding: 10px;
+    width:10em;
+height:5em;
+    padding:10px;
+font-size:1em;
     box-sizing: border-box;
     color: lightcoral
    
@@ -41,7 +45,8 @@ p{
     color: gray
 }
 .bt{
-    width: 100px;
+    width: 10em;
+height:5em;
     padding: 10px;
     box-sizing: border-box;
     color: orange
