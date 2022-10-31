@@ -1,4 +1,4 @@
-const question = '好きな曲はどれ？';
+const question = '好きなバンドは？';
 const answers = [
   'coldrain',
   'Crossfaith',
