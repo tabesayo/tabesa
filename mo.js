@@ -34,6 +34,8 @@
 <button type="button" class="ml-1 btn-primary">Primary</button>
 </div>
 </div>
+
+<script src="app.js"></scirpt>
 </body>
 
 </html>
