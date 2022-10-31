@@ -7,7 +7,7 @@ const answers = [
 ];
 const correct = 's';
 
-document.getElementById('js-question').textContent = question;
+do.getElementById('js-question').textContent = question;
 
 document.getElementsByTagName('button')[0].textContent = answers[0];
 document.getElementsByTagName('button')[1].textContent = answers[1];
