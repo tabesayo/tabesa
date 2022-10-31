@@ -5,7 +5,10 @@ const answers = [
   'SiM',
   'ONE OK ROCK',
 ];
-const correct = 's';
+const correct = 'coldrain',
+      'Crossfaith',
+        'SiM',
+        'ONE OK ROCK';
 
 document.getElementById('js-question').textContent = question;
 
