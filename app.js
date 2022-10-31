@@ -1,5 +1,10 @@
 const question = '好きな曲はどれ？';
-const answers = ['ささ','s','sa','sh'];
+const answers = [
+  'ささ',
+  's',
+  'sa',
+  'sh'
+];
 const correct = 's';
 
 document.getElementById('js-question').textContent = question;
