@@ -1,4 +1,4 @@
-const question = 'ゲーム、市場';
+const question = '好きな曲はどれか？';
 const answers = ['あ','s','sa','sh'];
 const correct = 's';
 
