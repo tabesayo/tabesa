@@ -17,6 +17,7 @@ document.getElementsByTagName('button')[0].addEventListener('click', () => {
     window.alert('正解');
   } else {
     window.alert('不正解');
+    }
 });
 document.getElementsByTagName('button')[1].addEventListener('click', () => {
   if(correct === document.getElementsByTagName('button')[1].textContent){
