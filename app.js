@@ -2,7 +2,7 @@ const question = '好きなバンドは？';
 const answers = [
   'coldrain','Crossfaith','SiM','ONE OK ROCK',
 ];
-const correct = ['coldrain','Crossfaith','SiM','ONE OK ROCK'];
+const correct = 'coldrain';
 
 document.getElementById('js-question').textContent = question;
 
