@@ -1,9 +1,9 @@
 const question = '好きな曲はどれ？';
 const answers = [
-  'ささ',
-  's',
-  'sa',
-  'sh'
+  'coldrain',
+  'Crossfaith',
+  'SiM',
+  'ONE OK ROCK',
 ];
 const correct = 's';
 
