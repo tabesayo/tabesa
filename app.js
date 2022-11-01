@@ -32,40 +32,36 @@ while(buttonIndex < buttonLength){
 }
 }
 setupQuiz();
-
-const quizLength = quiz.length;
-let quizIndex = 0;
-
-$button[0].addEventListener('click', () => {
-  if(correct === $button[0].textContent){
+const clickHandler = (e) => {
+  if(correct === e.target.textContent){
     window.alert('正解');
   } else {
     window.alert('不正解');
-    }
-  quizIndex++;
+  }
+   quizIndex++;
   if(quizIndex < quizLength){
     } else{
       window.alert('終了!');
       }
-});
-$button[1].addEventListener('click', () => {
-  if(correct === $button[1].textContent){
-    window.alert('正解');
-  } else {
-    window.alert('不正解');
+  };
+
+const quizLength = quiz.length;
+let quizIndex = 0;
+
+let handlerIndex = 0;
+const buttonLength = $button.length;
+while (handlerIndex < buttonLength) {
+  handlerIndex++;
   }
+$button[0].addEventListener('click', (e) => {
+ clickHandler();
 });
-$button[2].addEventListener('click', () => {
-  if(correct === $button[2].textContent){
-    window.alert('正解');
-  } else {
-    window.alert('不正解');
-  }
+$button[1].addEventListener('click', (e) => {
+  clickHandler();
 });
-$button[3].addEventListener('click', () => {
-  if(correct === $button[3].textContent){
-    window.alert('正解');
-  } else {
-    window.alert('不正解');
-  }
+$button[2].addEventListener('click', (e) => {
+  clickHandler();
+});
+$button[3].addEventListener('click', (e) => {
+  clickHandler();
 });
