@@ -1,15 +1,15 @@
 const quiz = [
   { 
     question: '初めて行ったフェスはなんでしょう？',
-    answers: ['ロッキン','CDJ','ビバラ','ラブシャ'],
+    answers: ['ロッキン', 'CDJ', 'ビバラ', 'ラブシャ'],
     correct: 'ビバラ'
    }, {
     question: '好きなライブ会場は？',
-    answers: ['ZeppDiverCity','新木場STUDIOCOAST','O-East','豊洲PIT'],
+    answers: ['ZeppDiverCity', '新木場STUDIOCOAST', 'O-East', '豊洲PIT'],
     correct: '新木場STUDIOCOAST'
    }, {
       question: 'ライブ後と言えば？',
-      answers: ['牛丼','焼肉','ハンバーグ','ラーメン'],
+      answers: ['牛丼', '焼肉', 'ハンバーグ', 'ラーメン'],
      correct: 'ラーメン'
    }
 ];
