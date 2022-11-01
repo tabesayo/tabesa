@@ -23,14 +23,16 @@ const quiz = [
 const quizLength = quiz.length;
 let quizIndex = 0;
 
-
 document.getElementById('js-question').textContent = question;
 
 const $button = document.getElementByTagName('button');
-$button[0].textConetnt = answers[0];
-$button[1].textContent = answers[1];
-$button[2].textContent = answers[2];
-$button[3].textContent = answers[3];
+
+let buttonIndex = 0;
+let buttonLength = $button.length;
+while(buttonIndex < buttonLength){
+  $button[buttonIndex].textConetnt = answers[buttonIndex];
+  buttonIndex++;
+}
 
 $button[0].addEventListener('click', () => {
   if(correct === $button[0].textContent){
