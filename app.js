@@ -1,8 +1,8 @@
-const question = '好きなバンドは？';
+const question = '初めて行ったフェスはなんでしょう？';
 const answers = [
-  'coldrain','coolrain','goodrain','crossrain',
+  'ロッキン','CDJ','ビバラ','ラブシャ',
 ];
-const correct = 'coldrain'
+const correct = 'ビバラ'
 
 document.getElementById('js-question').textContent = question;
 
