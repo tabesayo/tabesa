@@ -19,15 +19,17 @@ const quiz = [
   correct: 'ラーメン'
 }
 ];
+const quizLength = quiz.length;
+let quizIndex = 0;
 
 const $button = document.getElementByTagName('button');
+const buttonLength = $button.length;
 //クイズの問題
 const setupQuiz = () => {
-  document.getElementById('js-question').textContent = question;
+  document.getElementById('js-question').textContent = quiz[quizIndex].question;
 let buttonIndex = 0;
-let buttonLength = $button.length;
 while(buttonIndex < buttonLength){
-  $button[buttonIndex].textConetnt = answers[buttonIndex];
+  $button[buttonIndex].textConetnt = quiz[quizIndex].answers[buttonIndex];
   buttonIndex++;
 }
 }
@@ -40,16 +42,13 @@ const clickHandler = (e) => {
   }
    quizIndex++;
   if(quizIndex < quizLength){
+    setupQuiz();
     } else{
       window.alert('終了!');
       }
   };
 
-const quizLength = quiz.length;
-let quizIndex = 0;
-
 let handlerIndex = 0;
-const buttonLength = $button.length;
 while (handlerIndex < buttonLength) {
   handlerIndex++;
   }
