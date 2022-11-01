@@ -20,19 +20,21 @@ const quiz = [
 }
 ];
 
-const quizLength = quiz.length;
-let quizIndex = 0;
-
-document.getElementById('js-question').textContent = question;
-
 const $button = document.getElementByTagName('button');
-
+//クイズの問題
+const setupQuiz = () => {
+  document.getElementById('js-question').textContent = question;
 let buttonIndex = 0;
 let buttonLength = $button.length;
 while(buttonIndex < buttonLength){
   $button[buttonIndex].textConetnt = answers[buttonIndex];
   buttonIndex++;
 }
+}
+setupQuiz();
+
+const quizLength = quiz.length;
+let quizIndex = 0;
 
 $button[0].addEventListener('click', () => {
   if(correct === $button[0].textContent){
