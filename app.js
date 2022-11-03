@@ -1,6 +1,6 @@
 const quiz = [
   { 
-    question: '初めて行ったフェスはなんでしょう？',
+    question: '初めて行ったフェスは？',
     answers: ['ロッキン', 'CDJ', 'ビバラ', 'ラブシャ'],
     correct: 'ビバラ'
    }, {
@@ -11,6 +11,11 @@ const quiz = [
       question: 'ライブ後と言えば？',
       answers: ['牛丼', '焼肉', 'ハンバーグ', 'ラーメン'],
      correct: 'ラーメン'
+   },
+   { 
+    question: '年越しと言えば？',
+    answers: ['ガキ使', '紅白', 'CDJ', 'ごろごろ'],
+    correct: 'CDJ'
    }
 ];
 
