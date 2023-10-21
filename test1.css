@@ -9,11 +9,11 @@ table tr:nth-child(1) th{
       
 caption{
     font-size: x-large;
-    color: #CCCCCC;
+     color: #d3d3d3;
 }
 p{
     font-size: small;
-    color: #CCCCCC;
+     color: #d3d3d3;
 }
 .btn{
     width: 10em;
@@ -21,11 +21,11 @@ height:5em;
     padding: 10px;
 font-size:1em;
     box-sizing: border-box;
-    color: #CCCCCC;
+     color: #d3d3d3;
     border-radius: 50%;
 }
 .btn:hover{
-    color: #CCCCCC;
+     color: #d3d3d3;
 }
 
 .button{
@@ -34,11 +34,11 @@ height:5em;
     padding:10px;
 font-size:1em;
     box-sizing: border-box;
-    color: #CCCCCC;
+     color: #d3d3d3;
    
 }
 .button:hover{
-    color: #CCCCCC;
+    color: #d3d3d3;
 }
 .bt{
     width: 10em;
@@ -46,11 +46,11 @@ height:5em;
     padding: 10px;
 font-size:1em;
     box-sizing: border-box;
-    color:#CCCCCC;
+     color: #d3d3d3;
   
 }
 .bt:hover{
-    color: #CCCCCC;
+     color: #d3d3d3;
 }
 .ribbon22 {
     display: inline-block;
@@ -90,7 +90,7 @@ font-size:1em;
     padding: 0 20px;
     line-height: 45px;
     font-size: 18px;
-    color:#CCCCCC;
+     color: #d3d3d3;
  
   }
   .ribbon22 h3:before {
@@ -123,6 +123,6 @@ font-size: x-large;
   
   }
   p1{
-  color:#CCCCCC;
+  color: #d3d3d3;
     font-size: small;
   }
