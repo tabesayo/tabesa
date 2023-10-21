@@ -21,7 +21,7 @@ height:5em;
     padding: 10px;
 font-size:1em;
     box-sizing: border-box;
-    color: cornflowerblue;
+    color: #CCCCCC;
     border-radius: 50%;
 }
 .btn:hover{
@@ -34,7 +34,7 @@ height:5em;
     padding:10px;
 font-size:1em;
     box-sizing: border-box;
-    color: lightcoral
+    color: #CCCCCC;
    
 }
 .button:hover{
@@ -46,7 +46,7 @@ height:5em;
     padding: 10px;
 font-size:1em;
     box-sizing: border-box;
-    color: orange
+    color:#CCCCCC;
   
 }
 .bt:hover{
@@ -90,7 +90,7 @@ font-size:1em;
     padding: 0 20px;
     line-height: 45px;
     font-size: 18px;
-    color: white;
+    color:#CCCCCC;
  
   }
   .ribbon22 h3:before {
