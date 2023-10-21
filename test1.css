@@ -12,7 +12,7 @@ table tr:nth-child(1) th{
         }
 caption{
     font-size: x-large;
-    color: blue;
+    color: #EEEEEE;
     background-color: yellowgreen
 }
 p{
